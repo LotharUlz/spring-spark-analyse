@@ -1,4 +1,19 @@
 # spring-spark-analyse
+## description
+These Application provides several Webservices to analyse a huge amount of csv-files, which are collecting natural catastrophes. A csv-file has the following structure:
+
+Date	    Catastrophe	DamageAmount
+
+20200802	Flood	      3000000.00
+
+20200805	Earthquake	3000000.00
+
+20200807	Flood	      29000000.00
+
+20200821	Windstorm	  4300000.00
+
+20200823	Hurricane	  230000.00
+
 ## build and run
 mvnw spring-boot:run
 ## REST services
